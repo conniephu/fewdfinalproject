@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'Sharp Sans';
+    src: url(http://font.outcomehealth.com/SharpSansDispNo1-Book.eot);
+    src: url(http://font.outcomehealth.com/SharpSansDispNo1-Book.eot?#iefix) format("embedded-opentype"), url(http://font.outcomehealth.com/SharpSansDispNo1-Book.woff) format("woff");
+    font-weight: 40
+}
+@font-face {
+    font-family: 'Sharp Sans';
+    src: url(http://font.outcomehealth.com/SharpSansDispNo1-Medium.eot);
+    src: url(http://font.outcomehealth.com/SharpSansDispNo1-Medium.eot?#iefix) format("embedded-opentype"), url(http://font.outcomehealth.com/SharpSansDispNo1-Medium.woff) format("woff");
+    font-weight: 500
+}
+@font-face {
+    font-family: 'Sharp Sans';
+    src: url(http://font.outcomehealth.com/SharpSansDispNo1-Semibold.eot);
+    src: url(http://font.outcomehealth.com/SharpSansDispNo1-Semibold.eot?#iefix) format("embedded-opentype"), url(http://font.outcomehealth.com/SharpSansDispNo1-Semibold.woff) format("woff");
+    font-weight: 600
+}
+@font-face {
+    font-family: 'Sharp Sans';
+    src: url(http://font.outcomehealth.com/SharpSansDispNo1-Bold.eot);
+    src: url(http://font.outcomehealth.com/SharpSansDispNo1-Bold.eot?#iefix) format("embedded-opentype"), url(http://font.outcomehealth.com/SharpSansDispNo1-Bold.woff) format("woff");
+    font-weight: 700
+}
+@font-face {
+    font-family: 'Sharp Sans';
+    src: url(http://font.outcomehealth.com/SharpSansDispNo1-Extrabold.eot);
+    src: url(http://font.outcomehealth.com/SharpSansDispNo1-Extrabold.eot?#iefix) format("embedded-opentype"), url(http://font.outcomehealth.com/SharpSansDispNo1-Extrabold.woff) format("woff");
+    font-weight: 800
+}
