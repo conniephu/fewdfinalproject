@@ -20,7 +20,7 @@ header.container {
 }
 
 .label {
-	width: 95px;
+	width: 105px;
 	height: 25px;
 	background: #ffffff;
 	border-radius: 20px;
@@ -55,7 +55,8 @@ header.container {
 .full-width-block {
 	clear: both;
 	width: 100%;
-	height: 80px;
+	height: 100px;
+	margin-top: 10px;
 	margin-bottom: 10px;
 }
 
@@ -70,7 +71,7 @@ header.container {
 .hero-copy {
 	width: 350px;
 	height: 215px;
-	margin-top: 90px;
+	margin-top: 70px;
 	margin-left: 120px;
 	position: absolute;
 
@@ -115,50 +116,106 @@ header.container {
 
 .second-col-one {
 	float: left;
-	width: 33%;
-	height: 440px;
+	width: 38%;
+	height: 500px;
 	margin-top: 20px;
-	margin-bottom: 10px;
 	padding: 30px;
 	background: #00ab8e;
+	display: inline-block;
+
 }
 
 .second-col-two {
 	display: inline-block;
-	width: 60%;
+	width: 59%;
 	height: 440px;
 	margin-top: 20px;
-	margin-bottom: 10px;
+}
+
+.pull-quote {
+	background: #4e008e;
+	width: 100%;
+	height: 200px;
+	padding-top: 3px;
+	padding-left: 120px;
+	padding-right: 120px;
+	display: inline-block;
 }
 
 .third-col-one {
 	float: left;
 	width: 45%;
-	height: 525px;
-	border: 0.5px solid pink;
-	padding: 10px;
-	margin-bottom: 10px;
+	height: 575px;
+	padding: 10px 15px 10px 15px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.third-middle-rule {
+	width: 2%;
+	height: 530px;
+	margin-left: 25px;
+	border-right: 0.5px solid #40c1ac;
+	display: inline-block;
+	margin-top: 25px;
 }
 
 .third-col-two {
 	float: right;
 	width: 45%;
-	height: 525px;
-	border: 0.5px solid pink;
-	padding: 10px;
-	margin-bottom: 10px;
+	height: 575px;
+	padding: 10px 15px 10px 15px;
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
 
-.pull-quote {
-	clear: both;
-	border: 0.5px solid black;
-	background: #4e008e;
-	width: 100%;
-	height: 200px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	padding-left: 50px;
-	padding-right: 50px;
+
+.fourth-col-one {
+	display: inline-block;
+	float: left;
+	width: 18%;
+	height: 270px;
+	margin: 10px 8px 10px 0px;
+	padding: 10px;
+}
+
+.fourth-col-two {
+	width: 20%;
+	height: 270px;
+	margin: 10px 8px 10px 0px;
+	display: inline-block;
+	padding: 10px;
+	float: left;
+}
+
+.fourth-col-three {
+	width: 21%;
+	height: 270px;
+	margin: 10px 10px 10px 0px;
+	float: left;
+	display: inline-block;
+	padding: 10px;
+
+}
+
+.fourth-col-four {
+	width: 19%;
+	height: 270px;
+	margin: 10px 8px 10px 0px;
+	display: inline-block;
+	float: left;
+	padding: 10px;
+
+}
+
+.fourth-col-five {
+	width: 18%;
+	height: 270px;
+	margin: 10px 8px 10px 0px;
+	display: inline-block;
+	float: left;
+	padding: 10px;
+
 }
 
 
@@ -166,13 +223,24 @@ footer {
 	clear: both;
 	background: #4e008e;
 	width: 100%;
-	height: 200px;
+	height: 250px;
 }
 
 .footer-one {
 	padding-left: 20px;
-
+	float: left;
+	margin-top: 10px;
 }
+
+.footer-two {
+	padding-right: 20px;
+	text-align: right;
+	float: right;
+	margin-top: 10px;
+}
+
+
+/* TEXT PROPERTIES */
 
 h1 {
 	font-size: 50px;
@@ -194,8 +262,8 @@ h3 {
 h4 {
 	font-size: 30px;
 	color: #ffffff;
-	text-align: center;
-
+	text-align: left;
+	line-height: 40px;
 
 }
 
@@ -213,6 +281,9 @@ p {
 
 }
 
+.para-white {
+	color: #ffffff;
+}
 
 .teal-callout-header {
 	font-size: 20px;
@@ -228,8 +299,8 @@ p {
 }
 
 .nexus {
-	padding-top: 30px;
-	padding-left: 5px;
+	padding-top: 10px;
+	padding-left: 3px;
 }
 
 .pic-text {
@@ -245,5 +316,28 @@ p {
 	font-size: 18px;
 	margin-top: -19px;
 }
+
+.attribution {
+	color: #ffffff;
+	font-weight: 500;
+	text-align: right;
+	line-height: 5px;
+}
+
+.orange {
+	color: #e35205;
+	font-size: 38px;
+	line-height: 46px;
+}
+
+
+/* IMAGE PROPERTIES */
+
+.result-icons {
+	padding-left: 35px;
+}
+
+/* MOBILE RESPONSIVE */
+
 
 
