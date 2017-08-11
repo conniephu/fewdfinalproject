@@ -6,10 +6,12 @@
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
 
-	<link rel="stylesheet" href="styles/main.css">
+	<link rel='stylesheet' href='styles/main.css'>
 	<link rel="stylesheet" href="http://font.outcomehealth.com/OH_SharpSans.css">
 
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="scripts/app.js"></script>
+
+	<meta name="viewport" content="width=device-width", initial-scale="1">
 
 </head>
 <body>
@@ -17,7 +19,7 @@
 <div id="wrapper">
 
 <header>
-	<div class='container'>
+	<div>
 		<section>
 			<img class="logo" src="images/oh-logo350x120.jpg">
 		</section>
@@ -36,17 +38,18 @@
 
 
 <main>
-	<div class='container'>
+	<div>
 	<section class='hero'>
 		<div class='hero-copy'>
 		<div class='label'><p class='label-text'>Case Study</p>
 	</div>
 		<h2>Outcome Health technology helps Dr. Mehta transform patient expectations</h2>
 		<br>
-		<img class='pic-text' src='images/playbutton.png' height='40px' weight='40px'> <p></p>
+		<img class='pic-text play-button' src='images/playbutton.png'> <p></p>
 		<p class='hear'>Hear his story</p>
-		</div>
-		<img src='images/drmehtahero.jpg'>
+	</div>
+		
+		<img class='hide' src='images/drmehtahero.jpg'>
 	</section>
 
 	<section class='first-col-one'>
@@ -78,7 +81,22 @@
 	</section>
 
 	<section class='second-col-two'>
-	<img src='images/drmehtatv.jpg' width='745px' height='500px'>
+
+		<!-- SLIDESHOW TEST -->
+
+<button class="controls" id="pause">Pause</button>
+
+	<ul id="slides">
+		<li class="slide showing"><img src="images/drmehtawb.jpg" alt="Dr. Mehta using his digital wallboard"/></li>
+		<li class="slide"><img src="images/drmehtatv.jpg"/></li>
+		<li class="slide"><img src="images/drmehtaert.jpg"/></li>
+	</ul>
+
+
+			
+			</div>
+
+
 	</section>
 
 	<section class='pull-quote'>
@@ -122,36 +140,48 @@
 	</p>
 	</section>
 
-	</div>
-
-	<section class='full-width-block'>
+	
+<div class='mob'>
+	<section class='fourth-sec-top'>
 	<h2 class='orange'>Providing accurate content while patients are focused on their health has helped Dr. Mehta to:</h3>
 	</section>
+</div>
 
+<div class='mob'>
 	<section class='fourth-col-one'>
 	<img class='result-icons' src='images/icon1.png'>
 	<p>Reinforce the importance of routine procedures for patients of all ages.</p>
 	</section>
+</div>
 
+<div class='mob'>
 	<section class='fourth-col-two'>
 	<img class='result-icons' src='images/icon2.png'>
 	<p>Remind patients about annual and milestone procedures, helping to drive appointment volumes. </p>
 	</section>
+</div>
 
+<div>
 	<section class='fourth-col-three'>
 	<img class='result-icons' src='images/icon3.png'>
 	<p>Provide relevant education that clears up misconceptions, addresses concerns, and gives patients a better understanding of their health.</p>
 	</section>
+</div>
 
+<div>
 	<section class='fourth-col-four'>
 	<img class='result-icons' src='images/icon4.png'>
 	<p>Teach patients how to prepare for procedures and improve compliance.</p>
 	</section>
+</div>
 
+<div>
 	<section class='fourth-col-five'>
 	<img class='result-icons' src='images/icon5.png'>
 	<p>Drive joint-decision making between the patient and provider.</p>
 	</section>
+
+</div>
 
 </main>
 
@@ -165,7 +195,7 @@
 
 	<section class='footer-two'>
 		<h3>Contact</h3>
-		<p class='para-white'>
+		<p class='para-white-two'>
 		<br> (888) 000-0000
 		<br> 330 N Wabash Ave. 
 		<br>Suite 2500, Chicago, IL 60611
@@ -174,6 +204,10 @@
 </footer>
 
 </div>
+</div>
 
 </body>
+
+
+
 </html>

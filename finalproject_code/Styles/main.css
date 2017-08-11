@@ -13,11 +13,6 @@ header {
 
 }
 
-header.container {
-	width: 1200px;
-	height: 375px;
-	color: pink;
-}
 
 .label {
 	width: 105px;
@@ -100,7 +95,7 @@ header.container {
 	height: 150px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	margin-right: 25px;
+	margin-right: 50px;
 	padding: 10px;
 
 }
@@ -130,12 +125,13 @@ header.container {
 	width: 59%;
 	height: 440px;
 	margin-top: 20px;
+	position: relative;
 }
 
 .pull-quote {
 	background: #4e008e;
 	width: 100%;
-	height: 200px;
+	height: 210px;
 	padding-top: 3px;
 	padding-left: 120px;
 	padding-right: 120px;
@@ -145,7 +141,7 @@ header.container {
 .third-col-one {
 	float: left;
 	width: 45%;
-	height: 575px;
+	height: 620px;
 	padding: 10px 15px 10px 15px;
 	margin-top: 25px;
 	margin-bottom: 25px;
@@ -153,7 +149,7 @@ header.container {
 
 .third-middle-rule {
 	width: 2%;
-	height: 530px;
+	height: 590px;
 	margin-left: 25px;
 	border-right: 0.5px solid #40c1ac;
 	display: inline-block;
@@ -163,12 +159,17 @@ header.container {
 .third-col-two {
 	float: right;
 	width: 45%;
-	height: 575px;
+	height: 620px;
 	padding: 10px 15px 10px 15px;
 	margin-top: 25px;
 	margin-bottom: 25px;
 }
 
+.fourth-sec-top {
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
 
 .fourth-col-one {
 	display: inline-block;
@@ -217,7 +218,6 @@ header.container {
 	padding: 10px;
 
 }
-
 
 footer {
 	clear: both;
@@ -285,6 +285,10 @@ p {
 	color: #ffffff;
 }
 
+.para-white-two {
+	color: #ffffff;
+}
+
 .teal-callout-header {
 	font-size: 20px;
 	color: #ffffff;
@@ -330,14 +334,257 @@ p {
 	line-height: 46px;
 }
 
+.mob {
+	display: block;
+}
+
 
 /* IMAGE PROPERTIES */
+
+.mehta-office {
+	width: 744px;
+	height: 500px;
+	position: relative;
+}
 
 .result-icons {
 	padding-left: 35px;
 }
 
+.play-button {
+	width: 40px;
+	height: 40px;
+}
+
+
+/*SLIDESHOW*/
+
+#slides{
+	position: relative;
+	height: 150px;
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+
+.slide {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	z-index: 1;
+
+	-webkit-transition: opacity 1s;
+	-moz-transition: opacity 1s;
+	-o-transition: opacity 1s;
+	transition: opacity 1s;
+}
+
+.controls {
+	position: absolute;
+	z-index: 3;
+	display: block;
+}
+
+
+.slide:nth-of-type(1){
+	background: red;
+}
+.slide:nth-of-type(2){
+	background: orange;
+}
+.slide:nth-of-type(3){
+	background: green;
+}
+
+
+.showing{
+	opacity: 1;
+	z-index: 2;
+}
+
+
 /* MOBILE RESPONSIVE */
+
+@media (max-width: 450px) {
+	html {
+	
+	}
+
+	body {
+		font-size: 1rem;
+		margin: auto;
+	}
+
+	.orange {
+		font-size: 24px;
+		line-height: 30px;
+	}
+
+	.logo {
+		margin-left: 5px;
+	}
+
+	#wrapper {
+		width: 400px;
+	}
+
+	.nav {
+		display: none;
+	}
+
+	.hero {
+		background-color: #4e008e;
+	}
+
+	.hero-copy {
+		margin-left: 30px;
+
+	}
+
+
+	.hide {
+		display: none;
+	}	
+
+	.first-col-one {
+		width: 100%;
+		height: 100px;
+		margin-left: 10px;
+		float: left;
+
+	}
+
+	.first-col-two {
+		width: 100%;
+		height: 100px;
+		float: left;
+		margin-left: 10px;
+	}
+
+	.first-col-three {
+		width: 100%;
+		height: 100px;
+		float: left;
+		margin-left: 10px;
+	}
+
+	.second-col-one {
+		width: 100%;
+		height: 575px;
+		float: left;
+	}
+
+	.second-col-two {
+		display: none;
+	}
+
+	.pull-quote {
+		width: 100%;
+		height: 400px;
+		padding: 20px;
+
+	}
+
+	.third-col-one {
+		width: 100%;
+		float: left;
+		height: 680px;
+	}
+
+	.third-middle-rule {
+		display: none;
+	}
+
+	.third-col-two {
+		width: 100%;
+		float: left;
+		height: 680px;
+
+	}
+
+	.full-width-block {
+		width: 100%;
+		float: left;
+		height: 225px;
+		margin-left: 10px;
+	}
+
+	.fourth-sec-top {
+		width: 100%;
+		display: inline-block;
+		height: 100px;
+		margin-left: 10px;
+	}
+
+	.mob {
+		width: 100%;
+		display: block;
+	}
+
+	.fourth-col-one {
+		clear: both;
+		width: 75%;
+		float: left;
+		display: block;
+		height: 175px;
+		margin: 0 auto;
+	}
+
+	.fourth-col-two {
+		width: 75%;
+		float: left;
+		display: block;
+		height: 175px;
+		margin: 0 auto;
+	}
+
+	.fourth-col-three {
+		width: 75%;
+		float: left;
+		display: block;
+		height: 175px;
+		
+	}
+
+	.fourth-col-four {
+		width: 75%;
+		height: 175px;
+		float: left;
+		display: block;
+		margin-left: 40px;
+	}
+
+	.fourth-col-five {
+		width: 75%;
+		height: 175px;
+		float: left;
+		display: block;
+		margin-left: 40px;
+	}
+
+	.footer-one {
+		height: 100px;
+	}
+
+	.footer-two {
+		clear: both;
+		display: inline-block;
+		height: 130px;
+		margin-top: 150px;
+		margin-bottom: 10px;
+	}
+
+	.para-white-two {
+		color: #4e008e;
+	}
+
+}
+
+
+
 
 
 
