@@ -6,10 +6,20 @@
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
 
-	<link rel='stylesheet' href='styles/main.css'>
-	<link rel="stylesheet" href="http://font.outcomehealth.com/OH_SharpSans.css">
+
+	<link rel="stylesheet" href="http://font.outcomehealth.com/OH_SharpSans.css"/>
+
+	<link rel="stylesheet" href="styles/lity.css"/>
+
+	<link rel="stylesheet" href="styles/main.css"/>
+
+
+	<script src="scripts/jquery.js"></script>
 
 	<script src="scripts/app.js"></script>
+
+	<script src="scripts/lity.js"></script>
+
 
 	<meta name="viewport" content="width=device-width", initial-scale="1">
 
@@ -39,39 +49,46 @@
 
 <main>
 	<div>
-	<section class='hero'>
-		<div class='hero-copy'>
-		<div class='label'><p class='label-text'>Case Study</p>
+	<section class="hero">
+		<div class="hero-copy">
+		<div class="label"><p class="label-text">Case Study</p>
 	</div>
 		<h2>Outcome Health technology helps Dr. Mehta transform patient expectations</h2>
 		<br>
-		<img class='pic-text play-button' src='images/playbutton.png'> <p></p>
-		<p class='hear'>Hear his story</p>
+<!-- 		<img class='pic-text play-button' src='images/playbutton.png'> <p></p> -->
+		<a class="hear" href="https://player.vimeo.com/video/228405904" data-lity><img class='pic-text play-button' src='images/playbutton.png'> Hear his story</a></p>
+
+<!-- <iframe src="https://player.vimeo.com/video/228405904" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
+
 	</div>
-		
-		<img class='hide' src='images/drmehtahero.jpg'>
+		<picture>
+			 <source srcset="images/drmehtamobile.jpg" media="(max-width: 450px)">
+ <img src="images/drmehtahero.jpg" alt="Dr. Mehta">
+		</picture>
+
+<!-- 		<img class="hide" src="images/drmehtahero.jpg"> -->
 	</section>
 
-	<section class='first-col-one'>
+	<section class="first-col-one">
 		<h3>Dr. Manoj Mehta</h3>
 		<p> Medical director and gastroenterologist </p>
 	
 	</section>
 
-	<section class='first-col-two'>
+	<section class="first-col-two">
 		<h3>Practice</h3>
 		<p>The Endoscopy Center of the North Shore, Wilmette, Illinois</p>
 	</section>
 
-	<section class='first-col-three'>
+	<section class="first-col-three">
 		<h3>subhead here</h3>
 		<p> some copy goes here. call out call out here here. </p>
 	</section>
 
-	<section class='second-col-one'>
+	<section class="second-col-one">
 	<p class="teal-callout-header">For Dr. Mehta, educating patients about their health is key to a successful patient experience.</p>
 
-	<p class='teal-body'>In an effort to connect patients with accurate educational resources, Dr. Mehta installed Outcome Health technology in his office in 2015. 
+	<p class="teal-body">In an effort to connect patients with accurate educational resources, Dr. Mehta installed Outcome Health technology in his office in 2015. 
 	<br><br>
 	Outcome Health is the leading provider of decision enhancement technology that drives better health outcomes by transforming physician-patient communication.</p>
 
@@ -92,19 +109,20 @@
 		<li class="slide"><img src="images/drmehtaert.jpg"/></li>
 	</ul>
 
-
-			
+<!-- 	<picture>
+ <source srcset="drmehtawb_mob.jpg" media="(max-width: 450px)" alt="Outcome Health products at The Endoscopy Center of the North Shore">
+</picture> -->
 			</div>
 
 
 	</section>
 
-	<section class='pull-quote'>
+	<section class="pull-quote">
 		<h4>"Outcome Health helps me to collaborate with patients on how to approach a problem and make informed decisions about their health."</h4>
-		<p class='attribution'>- Dr. Manoj Mehta</p>
+		<p class="attribution">- Dr. Manoj Mehta</p>
 	</section>
 
-	<section class='third-col-one'>
+	<section class="third-col-one">
 		<h3>
 		Starting the conversation in the waiting room
 		</h3>

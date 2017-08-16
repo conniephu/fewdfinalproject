@@ -29,7 +29,7 @@ function pauseSlideshow() {
 function playSlideshow() {
     pauseButton.innerHTML = 'Pause';
     playing = true;
-    slideInterval = setInterval(nextSlide,2000);
+    slideInterval = setInterval(nextSlide,4000);
 }
 
 pauseButton.onclick = function() {

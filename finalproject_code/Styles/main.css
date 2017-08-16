@@ -437,11 +437,13 @@ p {
 
 	.hero {
 		background-color: #4e008e;
+		height: 600px;
 	}
 
 	.hero-copy {
 		margin-left: 30px;
-
+		margin-top: 300px;
+		height: 375px;
 	}
 
 
@@ -526,43 +528,45 @@ p {
 
 	.fourth-col-one {
 		clear: both;
-		width: 75%;
-		float: left;
+		width: 90%;
 		display: block;
 		height: 175px;
 		margin: 0 auto;
+		text-align: center;
 	}
 
 	.fourth-col-two {
-		width: 75%;
-		float: left;
+		width: 90%;
 		display: block;
 		height: 175px;
 		margin: 0 auto;
+		text-align: center;
+
 	}
 
 	.fourth-col-three {
-		width: 75%;
-		float: left;
+		width: 90%;
 		display: block;
-		height: 175px;
+		height: 190px;
+		text-align: center;
+		margin: 0 auto;
 		
 	}
 
 	.fourth-col-four {
-		width: 75%;
+		width: 90%;
 		height: 175px;
-		float: left;
 		display: block;
-		margin-left: 40px;
+		margin: 0 auto;
+		text-align: center;
 	}
 
 	.fourth-col-five {
-		width: 75%;
+		width: 90%;
 		height: 175px;
-		float: left;
 		display: block;
-		margin-left: 40px;
+		margin: 0 auto;
+		text-align: center;
 	}
 
 	.footer-one {
