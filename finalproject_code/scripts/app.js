@@ -1,6 +1,18 @@
 window.onload = function(event) {
 	
 
+var  mn = $(".main-nav");
+    mns = "main-nav-scrolled";
+    hdr = $('header').height();
+
+$(window).scroll(function() {
+  if( $(this).scrollTop() > hdr ) {
+    mn.addClass(mns);
+  } else {
+    mn.removeClass(mns);
+  }
+});	
+
 	var slides = document.querySelectorAll('.slide');
 	var currentSlide = 0;
 	var slideInterval = setInterval(nextSlide,4000);
@@ -39,6 +51,8 @@ pauseButton.onclick = function() {
     playSlideshow();
   }
 };
+
+
 
 
 }
