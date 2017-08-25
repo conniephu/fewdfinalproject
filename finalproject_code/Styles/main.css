@@ -15,50 +15,22 @@ main {
 /* HOME PAGE */
 
 #homepage-bg {
-	/*background-color: #4e008e;*/
 	background-image: url(../Images/background.png);
-	background-size: 100% 1300px;
+	background-size: cover;
 }
 
 .home-hero-text {
 	width: 100%;
-	height: 320px;	
+	height: 380px;	
 	padding-top: 50px;
 }
 
-.home-col-one {
+.photo-box {
 	width: 32%;
 	height: 350px;
 	float: left;
-	margin: 0;
-}
-
-.home-col-two {
-	width: 32%;
-	height: 350px;
+	margin: 5px;
 	display: inline-block;
-	float: left;
-	margin-left: 8px;
-	margin-top: 0;
-}
-
-.home-col-three {
-	width: 32%;
-	height: 350px;
-	display: inline-block;
-	float: left;
-	margin: 0;
-}
-
-.home-rowtwo-one {
-	width: 32%;
-	height: 350px;
-	display: block;
-	float: left;
-	margin-top: 10;
-	margin-left: 5px;
-	margin-bottom: 10px;
-
 }
 
 .photo-grid img {
@@ -77,7 +49,6 @@ main {
 	background: rgba(64,193,172,0.9);
 	color: white;
 	border-radius: 10px;
-	display: table;
 	height: 100%;
 	left: 0;
 	opacity: 0;
@@ -185,15 +156,6 @@ header {
 
 }
 
-/*.parallax-container {
-	background-image: url('images/drmehtahero.jpg');
-	height: 350px;
-	background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-*/
 .first-col-one {
 	float: left;
 	width: 25%;
@@ -356,7 +318,7 @@ footer {
 	padding-right: 50px;
 }
 
-/* PE page */
+/* PE page - future page */
 
 .pe-feature {
 	float: left;
@@ -385,6 +347,17 @@ footer {
 	font-size: 80px;
 }
 
+.hov-text {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.subhead {
+	font-size: 18px;
+	color: #ffffff;
+	font-weight: 500;
+}
+
 h1 {
 	font-size: 50px;
 	font-weight: 700;
@@ -407,7 +380,6 @@ h4 {
 	color: #ffffff;
 	text-align: left;
 	line-height: 40px;
-
 }
 
 h5 {
@@ -426,6 +398,7 @@ p {
 
 .para-white {
 	color: #ffffff;
+	font-size: 12px;
 }
 
 .para-white-two {
@@ -552,15 +525,62 @@ p {
 
 /* MOBILE RESPONSIVE */
 
-@media (max-width: 450px) {
-	html {
+@media (max-width: 425px) {
 	
+	html {
+		width: 100%;
+	}
+
+	main {
+		width: 100%;
 	}
 
 	body {
 		font-size: 1rem;
 		margin: auto;
 	}
+
+	h4 {
+		font-size: 16px;
+		line-height: 20px;
+	}
+
+	h5 {
+		font-size: 26px;
+	}
+
+
+	/*home page mobile items begin */
+
+	.home-head {
+		font-size: 36px;
+	}
+
+	.hov-text {
+		font-size: 12px;
+		line-height: 14px;
+	}
+
+	.photo-grid {
+		padding: 5px;
+	}
+
+	.home-hero-text {
+		height: 250px;
+		margin-top: 50px;
+		margin-left: 10px;
+	}
+
+	.photo-box {
+		width: 46%;
+		height: auto;
+	}
+
+	figcaption {
+		padding: 10px;
+	}
+
+	/*Home page mobile items END*/
 
 	.orange {
 		font-size: 24px;
@@ -579,9 +599,13 @@ p {
 		display: none;
 	}
 
+	.nav-two {
+		display: none;
+	}
+
 	.hero {
 		background-color: #4e008e;
-		height: 600px;
+		height: 645px;
 	}
 
 	.hero-copy {
@@ -597,7 +621,7 @@ p {
 
 	.first-col-one {
 		width: 100%;
-		height: 100px;
+		height: 120px;
 		margin-left: 10px;
 		float: left;
 
@@ -605,14 +629,14 @@ p {
 
 	.first-col-two {
 		width: 100%;
-		height: 100px;
+		height: 120px;
 		float: left;
 		margin-left: 10px;
 	}
 
 	.first-col-three {
 		width: 100%;
-		height: 100px;
+		height: 120px;
 		float: left;
 		margin-left: 10px;
 	}
@@ -621,15 +645,24 @@ p {
 		width: 100%;
 		height: 575px;
 		float: left;
+		margin-botton: 0;
 	}
 
 	.second-col-two {
-		display: none;
+		display: inline-block;
+		width: 100%;
+		height: 260px;
+		/*display: none;*/
+	}
+
+	.mob-pic {
+		width: 100%; 
+		height: auto;
 	}
 
 	.pull-quote {
 		width: 100%;
-		height: 400px;
+		height: 200px;
 		padding: 20px;
 
 	}
@@ -638,6 +671,7 @@ p {
 		width: 100%;
 		float: left;
 		height: 680px;
+		margin-top: 10px;
 	}
 
 	.third-middle-rule {
@@ -713,11 +747,24 @@ p {
 		text-align: center;
 	}
 
+	footer {
+		width: 100%;
+	}
+
 	.footer-one {
 		height: 100px;
+		width: 100%;
 	}
 
 	.footer-two {
+		display: none;
+	}
+
+	.para-white {
+		font-size: 10px;
+	}
+
+/*	.footer-two {
 		clear: both;
 		display: inline-block;
 		height: 130px;
@@ -726,13 +773,7 @@ p {
 	}
 
 	.para-white-two {
-		color: #4e008e;
-	}
+		text-align: left;
+	}*/
 
 }
-
-
-
-
-
-
